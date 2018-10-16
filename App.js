@@ -6,5 +6,5 @@
  * @flow
  */
 
-import App from "./app/Main";
+import App from "./src/Main";
 export default App;
