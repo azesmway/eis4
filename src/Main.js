@@ -7,7 +7,7 @@ type Props = {};
 export default class Main extends Component<Props> {
   constructor(props) {
     super(props);
-    this.state = {
+    props.state = {
       username: 'test',
       password: '',
       auth_token: '',
